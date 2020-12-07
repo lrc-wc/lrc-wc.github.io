@@ -36,7 +36,7 @@ var data = [{
     align: "center",
     line: {width: 1, color: 'rgb(50, 50, 50)'},
     fill: {color: [Blue]},
-    font: {family: "Arial", size: 10, color: "white"}
+    font: {family: "Arial", size: 12, color: "white"}
   },
   cells: {
     values: cellValues,
@@ -48,7 +48,7 @@ var data = [{
 }]
 
 var layout = {
-  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY WATER LEVELS",
+  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY LEVELS",
    autosize: true,
   // rangemode: "tozero",
   //width: 500,
