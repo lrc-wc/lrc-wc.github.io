@@ -48,7 +48,7 @@ var data = [{
 }]
 
 var layout = {
-  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY LEVELS AND FLOWS",
+  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY WATER LEVELS",
    autosize: true,
   // rangemode: "tozero",
   //width: 500,
