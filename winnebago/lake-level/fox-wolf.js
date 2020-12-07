@@ -1,6 +1,6 @@
 // ref:  https://plotly.com/javascript/table/
 
-Plotly.d3.csv('fox-wolf.csv', function(err, rows){
+Plotly.d3.csv('lakereport.csv', function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
