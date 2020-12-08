@@ -42,7 +42,7 @@ var data = [{
     values: cellValues,
     align: ["center", "center"],
     line: {color: "black", width: 1},
-    fill: {color: [Blue,LightBlue,LightBlue,LightBlue,LightBlue,Blue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,Blue]},
+    fill: {color: [Blue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue]},
     font: {family: "Arial", size: 9, color: ["black"]}
   }
 }]
