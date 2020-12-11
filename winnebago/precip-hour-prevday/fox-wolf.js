@@ -1,6 +1,6 @@
 // ref:  https://plotly.com/javascript/table/
 
-Plotly.d3.csv('precip_hr_prevday.csv', function(err, rows){
+Plotly.d3.csv('precip_hour_prevday.csv', function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
