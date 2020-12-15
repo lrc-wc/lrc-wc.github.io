@@ -67,9 +67,22 @@ var trace6 = {
 }
 
 var data = [trace1,trace2,trace3,trace4,trace5,trace6];
+  
+var layout = {
+  xaxis: {
+    tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
+    tick0: 0.5,
+    dtick: 0.75
+  }
+}
 
 var layout = {
   title: 'Water Levels on Lake Winnebago',
+    xaxis: {
+    tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
+    tick0: 0.5,
+    dtick: 0.75
+  } 
 };
 
 Plotly.newPlot('lakeplot', data, layout);
