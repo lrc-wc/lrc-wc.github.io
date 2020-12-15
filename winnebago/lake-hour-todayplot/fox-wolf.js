@@ -80,7 +80,7 @@ var layout = {
   title: 'Water Levels on Lake Winnebago',
     xaxis: {
     tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
-    tick0: 0.5,
+    tick0: 0.0,
     dtick: 5.0
   } 
 };
