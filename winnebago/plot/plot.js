@@ -1,30 +1,33 @@
-function makeplot() {
-  Plotly.d3.csv('2014_apple_stock.csv', function(data){ processData(data) } );
+Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function(err, rows){
 
-};
-
-function processData(allRows) {
-
-  console.log(allRows);
-  var x = [], y = [], standard_deviation = [];
-
-  for (var i=0; i<allRows.length; i++) {
-    row = allRows[i];
-    x.push( row['AAPL_x'] );
-    y.push( row['AAPL_y'] );
-  }
-  console.log( 'X',x, 'Y',y, 'SD',standard_deviation );
-  makePlotly( x, y, standard_deviation );
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
 }
 
-function makePlotly( x, y, standard_deviation ){
-  var plotDiv = document.getElementById("plot");
-  var traces = [{
-    x: x,
-    y: y
-  }];
 
-  Plotly.newPlot('myDiv', traces,
-    {title: 'Plotting CSV data from AJAX call'});
+var trace1 = {
+  type: "scatter",
+  mode: "lines",
+  name: 'AAPL High',
+  x: unpack(rows, 'Date'),
+  y: unpack(rows, 'AAPL.High'),
+  line: {color: '#17BECF'}
+}
+
+var trace2 = {
+  type: "scatter",
+  mode: "lines",
+  name: 'AAPL Low',
+  x: unpack(rows, 'Date'),
+  y: unpack(rows, 'AAPL.Low'),
+  line: {color: '#7F7F7F'}
+}
+
+var data = [trace1,trace2];
+
+var layout = {
+  title: 'Basic Time Series',
 };
-  makeplot();
+
+Plotly.newPlot('myDiv', data, layout);
+})
