@@ -81,7 +81,7 @@ var layout = {
     xaxis: {
     tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
     tick0: 0.5,
-    dtick: 0.75
+    dtick: 5.0
   } 
 };
 
