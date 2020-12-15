@@ -77,7 +77,7 @@ var layout = {
 }
 
 var layout = {
-  title: 'Water Levels on Lake Winnebago',
+  title: 'Lake Winnebago Water Levels',
     xaxis: {
     tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
     tick0: 0.0,
