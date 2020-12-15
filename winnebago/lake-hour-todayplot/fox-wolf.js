@@ -48,7 +48,7 @@ var trace5 = {
   name: 'Average',
   x: unpack(rows, 'Date'),
   y: unpack(rows, 'Average'),
-  line: {color: 'orange'}
+  line: {color: 'yellow'}
 }
 
 var trace6 = {
