@@ -88,7 +88,7 @@ var trace3 = {
   name: 'FOND DU LAC',
   x: unpack(rows, 'Date'),
   y: unpack(rows, 'FOND DU LAC'),
-  line: {color: '#7F7F7F'}
+  line: {color: 'blue'}
 }
 
 var trace4 = {
