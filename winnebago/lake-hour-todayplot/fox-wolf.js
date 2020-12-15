@@ -60,9 +60,9 @@ var trace5 = {
 var trace6 = {
   type: "scatter",
   mode: "lines",
-  name: 'Poygan*',
+  name: 'POYGAN*',
   x: unpack(rows, 'Date'),
-  y: unpack(rows, 'Poygan*'),
+  y: unpack(rows, 'POYGAN*'),
   line: {color: 'purple'}
 }
 
