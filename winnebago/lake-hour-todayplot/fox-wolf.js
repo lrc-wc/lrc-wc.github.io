@@ -6,6 +6,13 @@ Plotly.d3.csv('lake_hour_prev3day.csv', function(err, rows){
   return rows.map(function(row) { return row[key]; });
 }
 
+var w = 800;
+var h = 400;
+var padding = 20;
+var border=1;
+var bordercolor='black';  
+  
+  
 var trace1 = {
   type: "scatter",
   mode: "lines",
