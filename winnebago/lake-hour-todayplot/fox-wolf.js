@@ -1,8 +1,5 @@
 // ref:  https://plotly.com/javascript/table/
 
-Plotly.newPlot('table1', data, layout);
-});
-
 Plotly.d3.csv('lake_hour_prev3day.csv', function(err, rows){
 
   function unpack(rows, key) {
