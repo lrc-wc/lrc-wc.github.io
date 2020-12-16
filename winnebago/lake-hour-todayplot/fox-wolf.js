@@ -75,7 +75,7 @@ var layout = {
     tick0: 0.0,
     dtick: 12.0
    }
-    xaxis: {
+    yaxis: {
     tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
     tick0: 0.0,
     dtick: 12.0
