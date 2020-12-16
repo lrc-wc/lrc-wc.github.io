@@ -69,6 +69,8 @@ var layout = {
     ticks: 'outside',
     tick0: 0.0,
     dtick: 12.0
+    ticklen: 6,
+    tickwidth: 2
     },
     yaxis: {
     autotick: false,
