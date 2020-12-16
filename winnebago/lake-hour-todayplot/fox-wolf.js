@@ -75,7 +75,7 @@ var layout = {
     tick0: 0.0,
     dtick: 12.0
    }
-   yaxis: {
+    yaxis: {
     text: 'ft (Oshkosh Datum)'
    }
 };
