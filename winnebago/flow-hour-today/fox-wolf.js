@@ -43,7 +43,8 @@ var data = [{
     align: ["center", "center"],
     line: {color: "black", width: 1},
     fill: {color: [Blue,LightBlue,LightBlue,LightBlue,LightBlue,Blue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,Blue]},
-    font: {family: "Arial", size: 9, color: ["black"], format: ","}
+    format: ",",
+    font: {family: "Arial", size: 9, color: ["black"]}
   }
 }]
 
