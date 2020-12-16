@@ -1,6 +1,6 @@
 // ref:  https://plotly.com/javascript/table/
 
-Plotly.d3.csv('flow_hour_today.csv', d3.format(","), function(err, rows){
+Plotly.d3.csv('flow_hour_today.csv', function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
