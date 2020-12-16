@@ -65,7 +65,8 @@ var data = [trace1,trace2,trace3,trace4,trace5,trace6];
 var layout = {
   title: 'Lake Winnebago Water Levels',
     xaxis: {
-    tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
+    autotick: false,
+    ticks: 'outside',
     tick0: 0.0,
     dtick: 12.0
     },
