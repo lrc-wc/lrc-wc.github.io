@@ -80,10 +80,8 @@ var layout = {
     tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
     tick0: 1.5.0,
     dtick: 4.0
-    title: {
-      text: 'ft (Oshkosh Datum',
-           }
-    }
+    title: 'Oshkosh Datum',
+   }
 };
 Plotly.newPlot('lakeplot', data, layout);
 })
