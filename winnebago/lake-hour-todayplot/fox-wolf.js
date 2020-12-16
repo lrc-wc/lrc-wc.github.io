@@ -70,9 +70,12 @@ var layout = {
     dtick: 12.0
     },
     yaxis: {
-    tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
+    autotick: false,
+    ticks: 'outside',
     tick0: 1.5,
     dtick: 0.5,
+    ticklen: 6,
+    tickwidth: 2,
     title: 'Oshkosh Datum (ft)'
     }
 };
