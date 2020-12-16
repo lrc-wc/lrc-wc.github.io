@@ -75,6 +75,7 @@ var layout = {
     tick0: 0.0,
     dtick: 12.0
    }
+  
 };
 Plotly.newPlot('lakeplot', data, layout);
 })
