@@ -68,7 +68,7 @@ var layout = {
     autotick: false,
     ticks: 'outside',
     tick0: 0.0,
-    dtick: 12.0
+    dtick: 12.0,
     ticklen: 6,
     tickwidth: 2
     },
