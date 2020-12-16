@@ -27,7 +27,7 @@ var Blue='#1f77b4';
 var LightBlue='#A6E7E4';   
 var color1='rgb(235, 193, 238)';
 var color2='rgba(228, 222, 249, 0.65)';
-var format = d3.format(",")
+var format = d3.format("0,000");
 var data = [{
   type: 'table',
 //  columnwidth: [150,600,1000,900,600,500,1000,1000,1000],
