@@ -6,12 +6,6 @@ Plotly.d3.csv('lake_hour_prev3day.csv', function(err, rows){
   return rows.map(function(row) { return row[key]; });
 }
 
-var w = 800;
-var h = 400;
-var padding = 20;
-var border=1;
-var bordercolor='black';  
-    
 var trace1 = {
   type: "scatter",
   mode: "lines",
@@ -78,7 +72,7 @@ var layout = {
     yaxis: {
     tickmode: "linear", //  If "linear", the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick`
     tick0: 1.50,
-    dtick: 4.0
+    dtick: 0.5
     title: 'Oshkosh Datum'
     }
 };
