@@ -79,7 +79,7 @@ var layout = {
     dtick: 0.5,
     ticklen: 6,
     tickwidth: 2,
-    title: 'Oshkosh Datum (ft)'
+    title: 'Oshkosh Datum (ft.)'
     }
 };
 Plotly.newPlot('lakeplot', data, layout);
