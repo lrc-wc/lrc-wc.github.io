@@ -1,5 +1,4 @@
 // ref:  https://plotly.com/javascript/table/
-
 Plotly.d3.csv('flow_hour_today.csv', function(err, rows){
 
   function unpack(rows, key) {
@@ -8,6 +7,7 @@ Plotly.d3.csv('flow_hour_today.csv', function(err, rows){
 
   var headerNames = Plotly.d3.keys(rows[0]);
 
+  var formatlist o= [","]
   var headerValues = [];
   var cellValues = [];
   for (i = 0; i < headerNames.length; i++) {
@@ -39,6 +39,7 @@ var data = [{
     font: {family: "Arial", size: 12, color: "white"}
   },
   cells: {
+    text: 'd3.format(",")'
     values: cellValues,
     align: ["center", "center"],
     line: {color: "black", width: 1},
@@ -48,7 +49,7 @@ var data = [{
 }]
 
 var layout = {
-  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY FLOWS2",
+  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY FLOWS3",
    autosize: true,
   // rangemode: "tozero",
   //width: 500,
