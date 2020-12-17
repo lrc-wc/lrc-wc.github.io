@@ -44,7 +44,7 @@ var data = [{
     line: {color: "black", width: 1},
     fill: {color: [Blue,LightBlue,LightBlue,LightBlue,LightBlue,Blue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,Blue]},
     font: {family: "Arial", size: 9, color: ["black"]},
-    var cells = d3.format(",")
+    format: d3.format(",")
   }
 }]
 
