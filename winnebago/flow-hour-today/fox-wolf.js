@@ -39,7 +39,7 @@ var data = [{
     font: {family: "Arial", size: 12, color: "white"}
   },
   cells: {
-    text: d3.format(","),
+    text: d3.format(",.0f"),
     values: cellValues,
     align: ["center", "center"],
     line: {color: "black", width: 1},
