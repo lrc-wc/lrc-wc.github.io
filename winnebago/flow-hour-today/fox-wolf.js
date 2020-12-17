@@ -43,12 +43,13 @@ var data = [{
     align: ["center", "center"],
     line: {color: "black", width: 1},
     fill: {color: [Blue,LightBlue,LightBlue,LightBlue,LightBlue,Blue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,Blue]},
-    font: {family: "Arial", size: 9, color: ["black"]}
+    font: {family: "Arial", size: 9, color: ["black"]},
+    var cells = d3.format(",")
   }
 }]
 
 var layout = {
-  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY FLOWS",
+  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY FLOWS2",
    autosize: true,
   // rangemode: "tozero",
   //width: 500,
