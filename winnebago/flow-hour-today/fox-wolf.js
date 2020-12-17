@@ -23,7 +23,7 @@ Plotly.d3.csv('flow_hour_today.csv', function(err, rows){
   cellValues[1][i] = dateValue
   }
 
-var cells=d3.format(",");
+var data=d3.format(",");
 var Blue='#1f77b4';
 var LightBlue='#A6E7E4';   
 var color1='rgb(235, 193, 238)';
