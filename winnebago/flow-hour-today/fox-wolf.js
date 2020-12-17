@@ -54,5 +54,5 @@ var layout = {
   height: 1000,
 }
 
-Plotly.newPlot('table1', d3.format(",")(data), layout);
+Plotly.newPlot('table1', data, layout);
 });
