@@ -9,7 +9,7 @@ Plotly.d3.csv('flow_hour_today.csv', function(err, rows){
   var headerNames = Plotly.d3.keys(rows[0]);
 
   var headerValues = [];
-  var cellValues = [];
+  var cellValues = d3.format(",");
   for (i = 0; i < headerNames.length; i++) {
     headerValue = [headerNames[i]];
     headerValues[i] = headerValue;
