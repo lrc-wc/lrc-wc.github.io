@@ -6,6 +6,8 @@ Plotly.d3.csv('lake_hour_prev3day.csv', function(err, rows){
   return rows.map(function(row) { return row[key]; });
 }
 
+var config = {responsive: true}
+
 var trace1 = {
   type: "scatter",
   mode: "lines",
@@ -83,7 +85,7 @@ var layout = {
     title: 'Oshkosh Datum (ft)'
     }
 };
-Plotly.newPlot('lakeplot', data, layout);
+Plotly.newPlot('lakeplot', data, layout, config);
 })
 
 Plotly.d3.csv('flowosh_hour_prev3day.csv', function(err, rows){
@@ -122,5 +124,5 @@ var layout = {
       title: 'flow (cfs)'
     }
 };
-Plotly.newPlot('oshkoshplot', data, layout);
+Plotly.newPlot('oshkoshplot', data, layout, config);
 })
