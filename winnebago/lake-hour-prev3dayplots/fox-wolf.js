@@ -83,6 +83,9 @@ var layout = {
     title: 'Oshkosh Datum (ft)'
     }
 };
+
+var config = {responsive: true};
+
 Plotly.newPlot('lakeplot', data, layout, config);
 })
 
@@ -122,5 +125,8 @@ var layout = {
       title: 'flow (cfs)'
     }
 };
-Plotly.newPlot('oshkoshplot', data, layout);
+
+var config = {responsive: true}
+
+Plotly.newPlot('oshkoshplot', data, layout, config);
 })
