@@ -74,7 +74,7 @@ var layout = {
     },
     yaxis: {
     autotick: false,
-    range: [1.5, 4]
+    range: [1.5, 4],
     ticks: 'outside',
     tick0: 1.5,
     dtick: 0.5,
