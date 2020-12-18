@@ -98,7 +98,7 @@ var trace7 = {
   name: 'OSHKOSH',
   x: unpack(rows, 'Date'),
   y: unpack(rows, 'OSHKOSH'),
-  line: {color: 'magenta'}
+  line: {color: 'darkblue'}
 }
 
 var data = [trace7];
@@ -106,11 +106,20 @@ var data = [trace7];
 var layout = {
   title: 'Fox River at Oshkosh',
     xaxis: {
-    autotick: true,
+      autotick: false,
+      ticks: 'outside',
+      tick0: 0.0,
+      dtick: 12.0,
+      ticklen: 6,
+      tickwidth: 2
     },
     yaxis: {
-    autotick: true,
-    title: 'flow (cfs)'
+      autotick: false,
+      ticks: 'outside',
+      dtick: 500,
+      ticklen: 6,
+      tickwidth: 2,
+      title: 'flow (cfs)'
     }
 };
 Plotly.newPlot('oshkoshplot', data, layout);
