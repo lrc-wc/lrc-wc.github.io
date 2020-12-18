@@ -122,5 +122,5 @@ var layout = {
       title: 'flow (cfs)'
     }
 };
-Plotly.newPlot('oshkoshplot', data, layout, config);
+Plotly.newPlot('oshkoshplot', data, layout);
 })
