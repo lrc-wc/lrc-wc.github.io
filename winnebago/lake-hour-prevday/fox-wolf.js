@@ -43,12 +43,12 @@ var data = [{
     align: ["center", "center"],
     line: {color: "black", width: 1},
     fill: {color: [Blue,LightBlue,LightBlue,LightBlue,LightBlue,Blue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,Blue]},
-    font: {family: "Arial", size: 9, color: ["black"]}
+    font: {family: "Arial", size: 12, color: ["black"]}
   }
 }]
 
 var layout = {
-  title: "FOX-WOLF BASIN HYDROLOGIC DATA DAILY WATER LEVELS",
+  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY WATER LEVELS",
    autosize: true,
   // rangemode: "tozero",
   //width: 500,
