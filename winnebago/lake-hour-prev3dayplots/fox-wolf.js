@@ -108,6 +108,7 @@ var data = [trace7];
   
 var layout = {
   title: 'Fox River at Oshkosh',
+  showlegend: true,
     xaxis: {
       autotick: false,
       ticks: 'outside',
