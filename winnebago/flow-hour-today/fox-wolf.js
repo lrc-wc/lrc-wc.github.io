@@ -1,4 +1,5 @@
 // ref:  https://plotly.com/javascript/table/
+
 Plotly.d3.csv('flow_hour_today.csv', function(err, rows){
 
   function unpack(rows, key) {
@@ -42,12 +43,12 @@ var data = [{
     align: ["center", "center"],
     line: {color: "black", width: 1},
     fill: {color: [Blue,LightBlue,LightBlue,LightBlue,LightBlue,Blue,LightBlue,LightBlue,LightBlue,LightBlue,LightBlue,Blue]},
-    font: {family: "Arial", size: 12, color: ["black"]}
+    font: {family: "Arial", size: 9, color: ["black"]}
   }
 }]
 
 var layout = {
-  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY FLOWS5",
+  title: "FOX-WOLF BASIN HYDROLOGIC DATA HOURLY FLOWS",
    autosize: true,
   // rangemode: "tozero",
   //width: 500,
