@@ -85,6 +85,7 @@ var layout = {
     tickwidth: 2
     },
     yaxis: {
+    tickformat: '0.0',
     linecolor: 'darkgray',
     linewidth: 2,
     mirror: true,
@@ -134,7 +135,6 @@ var layout = {
   title: 'Fox River at Oshkosh',
   showlegend: true,
     xaxis: {
-      tickformat: ',',
       linecolor: 'darkgray',
       linewidth: 2,
       mirror: true,
@@ -146,6 +146,7 @@ var layout = {
       tickwidth: 2
     },
     yaxis: {
+      tickformat: ',',
       linecolor: 'darkgray',
       linewidth: 2,
       mirror: true,
