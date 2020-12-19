@@ -123,7 +123,7 @@ var layout = {
     l: 100,
     r: 50,
     b: 25,
-    t: 25,
+    t: 10,
     pad: 4},
   title: 'Fox River at Oshkosh',
   showlegend: true,
