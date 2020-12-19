@@ -64,6 +64,8 @@ var data = [trace1,trace2,trace3,trace4,trace5,trace6];
   
 var layout = {
   autosize: false,
+  width: 2000,
+  height: 2000,
   margin: {
     l: 50,
     r: 50,
@@ -115,6 +117,8 @@ var data = [trace7];
   
 var layout = {
   autosize: false,
+  width: 2000,
+  height: 2000,
   margin: {
     l: 50,
     r: 50,
