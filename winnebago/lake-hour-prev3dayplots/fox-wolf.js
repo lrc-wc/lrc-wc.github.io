@@ -70,7 +70,7 @@ var layout = {
     l: 110,
     r: 50,
     b: 30,
-    t: 25,
+    t: 50,
     pad: 4},
   title: 'Lake Winnebago Water Levels',
     xaxis: {
