@@ -72,7 +72,7 @@ var layout = {
     b: 25,
     t: 25,
     pad: 4},
-  title: 'Lake Winnebago Water Levels2',
+  title: 'Lake Winnebago Water Levels',
     xaxis: {
     autotick: false,
     ticks: 'outside',
