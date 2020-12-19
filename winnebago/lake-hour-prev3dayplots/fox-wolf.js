@@ -63,6 +63,15 @@ var trace6 = {
 var data = [trace1,trace2,trace3,trace4,trace5,trace6];
   
 var layout = {
+    autosize: false,
+  width: 500,
+  height: 500,
+  margin: {
+    l: 50,
+    r: 50,
+    b: 100,
+    t: 100,
+    pad: 4}
   title: 'Lake Winnebago Water Levels',
     xaxis: {
     autotick: false,
