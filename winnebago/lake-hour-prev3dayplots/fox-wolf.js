@@ -134,6 +134,7 @@ var layout = {
   title: 'Fox River at Oshkosh',
   showlegend: true,
     xaxis: {
+      tickformat: ',',
       linecolor: 'darkgray',
       linewidth: 2,
       mirror: true,
