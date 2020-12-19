@@ -64,7 +64,7 @@ var data = [trace1,trace2,trace3,trace4,trace5,trace6];
   
 var layout = {
   autosize: true,
-  width: 1800,
+  width: 1600,
   height: 500,
   margin: {
     l: 100,
@@ -123,13 +123,13 @@ var data = [trace7];
   
 var layout = {
   autosize: true,
-  width: 1800,
+  width: 1600,
   height: 500,
   margin: {
     l: 100,
     r: 50,
     b: 25,
-    t: 10,
+    t: 15,
     pad: 4},
   title: 'Fox River at Oshkosh',
   showlegend: true,
