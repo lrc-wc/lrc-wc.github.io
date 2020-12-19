@@ -67,7 +67,7 @@ var layout = {
   width: 1300,
   height: 500,
   margin: {
-    l: 50,
+    l: 100,
     r: 50,
     b: 25,
     t: 25,
@@ -120,7 +120,7 @@ var layout = {
   width: 1300,
   height: 500,
   margin: {
-    l: 50,
+    l: 100,
     r: 50,
     b: 25,
     t: 25,
