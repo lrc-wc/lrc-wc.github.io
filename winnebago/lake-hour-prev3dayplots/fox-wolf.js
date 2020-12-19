@@ -64,13 +64,13 @@ var data = [trace1,trace2,trace3,trace4,trace5,trace6];
   
 var layout = {
   autosize: true,
-  width: 1000,
+  width: 1300,
   height: 500,
   margin: {
     l: 50,
     r: 50,
-    b: 10,
-    t: 100,
+    b: 25,
+    t: 25,
     pad: 4},
   title: 'Lake Winnebago Water Levels2',
     xaxis: {
@@ -117,13 +117,13 @@ var data = [trace7];
   
 var layout = {
   autosize: true,
-  width: 1000,
+  width: 1300,
   height: 500,
   margin: {
     l: 50,
     r: 50,
-    b: 10,
-    t: 100,
+    b: 25,
+    t: 25,
     pad: 4},
   title: 'Fox River at Oshkosh',
   showlegend: true,
