@@ -85,7 +85,7 @@ var layout = {
     tickwidth: 2
     },
     yaxis: {
-    tickformat: '0.0',
+    tickformat: '0.1f',
     linecolor: 'darkgray',
     linewidth: 2,
     mirror: true,
