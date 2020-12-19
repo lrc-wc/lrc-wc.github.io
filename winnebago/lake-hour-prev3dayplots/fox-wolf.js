@@ -74,7 +74,7 @@ var layout = {
     pad: 4},
   title: 'Lake Winnebago Water Levels',
     xaxis: {
-    linecolor: 'black',
+    linecolor: 'darkgray',
     linewidth: 2,
     mirror: true, 
     autotick: false,
@@ -85,7 +85,7 @@ var layout = {
     tickwidth: 2
     },
     yaxis: {
-    linecolor: 'black',
+    linecolor: 'darkgray',
     linewidth: 2,
     mirror: true,
     autotick: false,
@@ -134,7 +134,7 @@ var layout = {
   title: 'Fox River at Oshkosh',
   showlegend: true,
     xaxis: {
-      linecolor: 'black',
+      linecolor: 'darkgray',
       linewidth: 2,
       mirror: true,
       autotick: false,
@@ -145,7 +145,7 @@ var layout = {
       tickwidth: 2
     },
     yaxis: {
-      linecolor: 'black',
+      linecolor: 'darkgray',
       linewidth: 2,
       mirror: true,
       autotick: false,
