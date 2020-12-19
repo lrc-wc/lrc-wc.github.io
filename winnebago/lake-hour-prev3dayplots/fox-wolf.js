@@ -69,7 +69,7 @@ var layout = {
   margin: {
     l: 100,
     r: 50,
-    b: 25,
+    b: 30,
     t: 25,
     pad: 4},
   title: 'Lake Winnebago Water Levels',
@@ -128,7 +128,7 @@ var layout = {
   margin: {
     l: 100,
     r: 50,
-    b: 25,
+    b: 30,
     t: 25,
     pad: 4},
   title: 'Fox River at Oshkosh',
