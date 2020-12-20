@@ -85,6 +85,7 @@ var layout = {
     tickwidth: 2
     },
     yaxis: {
+    hoverformat = '.1f'
     tickformat: '.1f',
     linecolor: 'darkgray',
     linewidth: 2,
